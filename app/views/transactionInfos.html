@@ -1,7 +1,7 @@
 <div class="container" style="padding-top: 50px;">
 
     <h1>Transaction
-        <small>View information about an Ethereum transaction</small>
+        <small>View information about an NSC transaction</small>
     </h1>
 
     <div id="tx-97785883" class="txdiv">
@@ -16,12 +16,12 @@
                     <br>
                 </td>
                 <td width="48px" class="" style="padding:4px;text-align:center;vertical-align:middle;">
-                    <img src="https://blockchain.info/Resources/arrow_right_green.png">  <!--TODO upload the image on the server-->
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                 </td>
                 <td class="">
                     <a href="./#/address/{{to}}">{{to}}</a>
                     <span class="pull-right">
-                        <span>{{ethValue}} ETH</span>
+                        <span>{{ethValue}} NEXT</span>
                     </span>
                     <br>
                 </td>
@@ -30,7 +30,7 @@
         </table>
         <div style="padding-bottom:30px;width:100%;text-align:right;clear:both">   <!--TODO no style tags...-->
             <button class="btn btn-primary">{{conf}} Confirmations</button>
-            <button class="btn btn-success cb"><span>{{ethValue}} ETH</span></button>
+            <button class="btn btn-success cb"><span>{{ethValue}} NEXT</span></button>
         </div>
         <table class="table table-striped">
             <tbody><tr>
